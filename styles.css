@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: burlywood;
+    color: rgb(37, 37, 101);
+    overflow: hidden;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: blanchedalmond;
+    padding: 0 20px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s, font-size 0.3s;
+}
+
+header nav ul li a:hover {
+    color: rgb(40, 40, 136);
+    font-size: 1.1rem;
+}
+
+.main-text {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.firstSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    padding: 20px;
+    text-align: center;
+}
+
+.leftSection {
+    font-size: 1rem;
+    width: 100%;
+}
+
+.leftSection .btn {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.leftSection .btn:hover {
+    background-color: #45a049;
+}
+
+.rightSection img {
+    width: 150px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.purple {
+    color: rgb(13, 38, 179);
+}
+
+#element {
+    color: rgb(13, 38, 179);
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.secondSection h1 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+.secondSection .box {
+    background-color: beige;
+    width: 80%;
+    height: 2px;
+    margin: 20px auto;
+}
+
+footer {
+    text-align: center;
+    padding: 12px 0;
+    background-color: blanchedalmond;
+}
+
+footer .footer h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+footer .footer h3 {
+    font-size: 1rem;
+    color: rgb(100, 100, 100);
+}
